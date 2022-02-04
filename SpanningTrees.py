@@ -71,7 +71,7 @@ class SpanningTrees:
         Leaves of the tree are spanning trees (where every possible edge was removed).
             In every iteration we are choosing edge for removal and fixation with following conditions:
                 - edge should be new (not previously chosen)
-                - its removal should not affect the tree property
+                - its removal should not affect connectedness
                 - its fixation should not create cycle of fixed edges
             Then we are fixing the edge (creating left children) and removing it from the graph (creating right children)
             In next iteration we repeat the same procedure for left and right children, until we reach the leaves of the tree.
