@@ -130,7 +130,7 @@ Outputs folder structure like this:
     │   ├── spanning_tree_adjacency_001.csv
     │   ├── spanning_tree_adjacency_002.csv
     │   └── spanning_tree_adjacency_003.csv
-    └── images #images of spanning trees
+    └── images
         ├── spanning_tree_001.png
         ├── spanning_tree_002.png
         └── spanning_tree_003.png
